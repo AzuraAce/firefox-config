@@ -36,3 +36,5 @@ user_pref("widget.non-native-theme.scrollbar.style", 1);
 user_pref("apz.overscroll.enabled", false);
 // dont close firefox when closing last tab
 user_pref("browser.tabs.closeWindowWithLastTab", false);
+// disable sidebar auto-open on PDF load
+user_pref("pdfjs.sidebarViewOnLoad", 0);
