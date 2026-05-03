@@ -29,7 +29,8 @@ user_pref("extensions.formautofill.creditCards.enabled", false);
 user_pref("browser.tabs.warnOnClose", true);
 // compact mode
 user_pref("browser.compactmode.show", true);
-user_pref("browser.uidensity", 1);
+// 0: normal    1: compact  2: touch
+user_pref("browser.uidensity", 0);
 // mac os style scrollbar
 user_pref("widget.non-native-theme.scrollbar.style", 1);
 // disable bouncy animation when scrolling to top of website
@@ -38,3 +39,5 @@ user_pref("apz.overscroll.enabled", false);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 // disable sidebar auto-open on PDF load
 user_pref("pdfjs.sidebarViewOnLoad", 0);
+// disable kinetic scroll
+user_pref("apz.gtk.kinetic_scroll.enabled", false);
